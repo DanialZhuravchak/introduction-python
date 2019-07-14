@@ -6,10 +6,10 @@ def win(current_game):
 #Horizontal  
     for row in game:
         print(row)
-        if row.count(row[0]) == len(row) and row[0] !=0:
+        if row.count(row[0]) == len(row) and row[0] ! = 0:
             print(f"Player {row[0]} is the winner horizontally!")
 
-    #Diaginal
+    #Diaginal   
     diags = []
 
     for col, row in enumerate(reversed(range(len(game)))):
